@@ -1,0 +1,93 @@
+07/04/2024 12:12:40: An error occurred: System.InvalidOperationException: Parameter '@interest2' must have either its NpgsqlDbType or its DataTypeName or its Value set.
+   at Npgsql.NpgsqlParameter.<ResolveTypeInfo>g__ThrowNoTypeInfo|110_0()
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__119.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__119.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.<ExecuteNonQuery>d__107.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at TaskManagementApp.CompleteProfileForm.<SaveButton_Click>d__12.MoveNext() in C:\Users\Admin\Desktop\SoftwareProjectCode\TaskManagementApp\Form4.cs:line 181
+07/04/2024 12:13:19: An error occurred: Npgsql.PostgresException (0x80004005): 42703: column "username" does not exist
+
+POSITION: 739
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__119.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__119.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.<ExecuteNonQuery>d__107.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at TaskManagementApp.CompleteProfileForm.<SaveButton_Click>d__12.MoveNext() in C:\Users\Admin\Desktop\SoftwareProjectCode\TaskManagementApp\Form4.cs:line 181
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "username" does not exist
+    Hint: Perhaps you meant to reference the column "userinfo.user_name".
+    Position: 739
+    File: parse_relation.c
+    Line: 3720
+    Routine: errorMissingColumn
+07/04/2024 12:14:19: An error occurred: Npgsql.PostgresException (0x80004005): 42703: column "username" does not exist
+
+POSITION: 739
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__119.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__119.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.<ExecuteNonQuery>d__107.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at TaskManagementApp.CompleteProfileForm.<SaveButton_Click>d__12.MoveNext()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "username" does not exist
+    Hint: Perhaps you meant to reference the column "userinfo.user_name".
+    Position: 739
+    File: parse_relation.c
+    Line: 3720
+    Routine: errorMissingColumn

@@ -1,0 +1,99 @@
+22/04/2024 21:43:11: 42703: column usertaskinfo.created_at does not exist
+
+POSITION: 228
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__119.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__119.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at TaskManagementApp.Form5.GetLatestTaskFromDB() in C:\Users\Admin\Desktop\SoftwareProjectCode\TaskManagementApp\Form5.cs:line 273
+24/04/2024 14:24:32: 42703: column usertaskinfo.created_at does not exist
+
+POSITION: 228
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__119.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__119.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at TaskManagementApp.Form5.GetLatestTaskFromDB() in C:\Users\Admin\Desktop\SoftwareProjectCode\TaskManagementApp\Form5.cs:line 273
+29/04/2024 14:10:17: 42601: syntax error at or near "OUTER"
+
+POSITION: 145
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__119.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__119.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at TaskManagementApp.Form5.GetLatestTaskFromDB(Nullable`1 listId) in C:\Users\Admin\Desktop\SoftwareProjectCode\TaskManagementApp\Form5.cs:line 296
+29/04/2024 21:00:26: Column 'file_name' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetString(Int32 ordinal)
+   at TaskManagementApp.Form5.GetLatestTaskFromDB(Nullable`1 listId) in C:\Users\Admin\Desktop\SoftwareProjectCode\TaskManagementApp\Form5.cs:line 302
+01/05/2024 14:53:58: Column 'file_name' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetString(Int32 ordinal)
+   at TaskManagementApp.Form5.GetLatestTaskFromDB(Nullable`1 listId) in C:\Users\Admin\Desktop\SoftwareProjectCode\TaskManagementApp\Form5.cs:line 308
+01/05/2024 17:12:02: Column 'file_name' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetString(Int32 ordinal)
+   at TaskManagementApp.Form5.GetLatestTaskFromDB(Nullable`1 listId) in C:\Users\Admin\Desktop\SoftwareProjectCode\TaskManagementApp\Form5.cs:line 321
+01/05/2024 20:08:21: Column 'file_name' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetString(Int32 ordinal)
+   at TaskManagementApp.Form5.GetLatestTaskFromDB(Nullable`1 listId) in C:\Users\Admin\Desktop\SoftwareProjectCode\TaskManagementApp\Form5.cs:line 321
