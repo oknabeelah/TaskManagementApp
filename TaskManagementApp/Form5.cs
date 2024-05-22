@@ -16,7 +16,12 @@ using Microsoft.Win32;
 using System.Collections;
 
 namespace TaskManagementApp
+<<<<<<< Updated upstream
 { //on the github site
+=======
+{
+    //making sure it works
+>>>>>>> Stashed changes
     public partial class Form5 : Form
     {
         bool sidebarExpand; //declaring 
